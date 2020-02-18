@@ -18,7 +18,9 @@
 # 3. node-gyp links the two resulting binaries to generate better_sqlite3.node.
 # ===
 
-VERSION="3290000"
+# 3.30.1
+# Per https://github.com/requery/sqlite-android/blob/3.30.1/sqlite-android/build.gradle#L63
+VERSION="3300100"
 YEAR="2019"
 
 # TODO: SQLITE_ENABLE_GEOPOLY (determine if the emitted warnings are safe or not)
