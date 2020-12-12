@@ -10,11 +10,11 @@
       'dependencies': ['deps/sqlite3.gyp:sqlite3'],
       'sources': ['src/better_sqlite3.cpp'],
       'cflags': [
-        '-std=c++11',
+        '-std=c++14',
       ],
       'xcode_settings': {
         'OTHER_CPLUSPLUSFLAGS': [
-          '-std=c++11',
+          '-std=c++14',
           '-stdlib=libc++',
         ],
       },
